@@ -2,6 +2,8 @@
 
 # DBT + Databricks: End-to-End Data Engineering Project
 
+</div>
+
 **A hands-on, production-style data transformation project built with dbt Core on the Databricks Lakehouse.**
 Medallion architecture · Data quality testing · Reusable Jinja macros · SCD Type 2 history tracking
 
@@ -19,34 +21,7 @@ Medallion architecture · Data quality testing · Reusable Jinja macros · SCD T
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 
-</div>
 
----
-
-## Table of Contents
-
-1. [About the Project](#-about-the-project)
-2. [What is dbt and Why Use It?](#-what-is-dbt-and-why-use-it)
-3. [Architecture](#-architecture)
-4. [Tech Stack](#-tech-stack)
-5. [Repository Structure](#-repository-structure)
-6. [Getting Started](#-getting-started)
-7. [What I Built](#-what-i-built)
-   - [1. Source layer](#1-source-layer)
-   - [2. Bronze models](#2-bronze-models)
-   - [3. Configuration and precedence](#3-configuration-and-precedence)
-   - [4. Custom schemas](#4-custom-schemas-with-generate_schema_name)
-   - [5. Data quality tests](#5-data-quality-tests)
-   - [6. Seeds](#6-seeds)
-   - [7. Jinja, macros and analyses](#7-jinja-macros-and-analyses)
-   - [8. Silver model](#8-silver-model)
-   - [9. Snapshots (SCD Type 2)](#9-snapshots-scd-type-2)
-8. [Command Reference](#-command-reference)
-9. [Advantages of dbt](#-advantages-of-dbt)
-10. [What I Learned](#-what-i-learned)
-11. [Future Improvements](#-future-improvements)
-12. [Acknowledgements](#-acknowledgements)
-13. [Author](#-author)
 
 ---
 
