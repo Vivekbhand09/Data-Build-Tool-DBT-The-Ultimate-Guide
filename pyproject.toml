@@ -1,0 +1,20 @@
+[project]
+name = "data-build-tool-dbt-the-ultimate-guide-with-cicd"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Vivekbhand09", email = "bhandvivek974@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "dbt-core>=1.12.5",
+    "dbt-databricks>=1.12.6",
+]
+
+[project.scripts]
+data-build-tool-dbt-the-ultimate-guide-with-cicd = "data_build_tool_dbt_the_ultimate_guide_with_cicd:main"
+
+[build-system]
+requires = ["uv_build>=0.12.12,<0.13.0"]
+build-backend = "uv_build"

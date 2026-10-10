@@ -1,0 +1,21 @@
+viv_dbt:
+  outputs:
+    dev:
+      catalog: dbt_tutorial_dev
+      host: "{{ env_var('DATABRICKS_HOST') }}"
+      http_path: "{{ env_var('DATABRICKS_HTTP_PATH') }}"
+      schema: default
+      threads: 1
+      token: "{{ env_var('DBT_ENV_SECRET_DATABRICKS_TOKEN') }}"
+      type: databricks
+    
+    prod:
+      catalog: dbt_tutorial_prod
+      host: "{{ env_var('DATABRICKS_HOST') }}"
+      http_path: "{{ env_var('DATABRICKS_HTTP_PATH') }}"
+      schema: default
+      threads: 1
+      token: "{{ env_var('DBT_ENV_SECRET_DATABRICKS_TOKEN') }}"
+      type: databricks
+      
+  target: dev
