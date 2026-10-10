@@ -702,6 +702,4 @@ Item 3 now has **two rows**: the old version was closed at the exact moment the 
 
 ---
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/<your-profile>)
-
 If you found this project helpful, consider giving it a ⭐
