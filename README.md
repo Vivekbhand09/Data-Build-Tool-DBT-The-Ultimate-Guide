@@ -342,7 +342,7 @@ Run a single layer with a selector:
 ```bash
 dbt run --select "models/bronze"
 ```
-
+![Alt text](Data/model.png)
 ---
 
 ### 5. Data quality tests
@@ -410,7 +410,7 @@ WHERE {{ column_name }} < 0
 ```bash
 dbt test
 ```
-
+![Alt text](Data/test.png)
 ---
 
 ### 6. Seeds
@@ -438,6 +438,8 @@ dbt seed        # creates dbt_tutorial_dev.bronze.lookup
 ```
 
 > The sample data above is fictional.
+
+![Alt text](Data/seed.png)
 
 ---
 
@@ -526,7 +528,11 @@ SELECT {{ multiply(10, 30) }} AS test_col
 ```bash
 dbt compile --select jinja-4     # inspect the generated SQL in target/compiled/
 ```
+### Macro :
+![Alt text](Data/macro.png)
 
+### Jinja :
+![Alt text](Data/jinja.gif)
 ---
 
 ### 8. Silver model
@@ -578,6 +584,8 @@ ORDER BY total_sales DESC
 ```
 
 Good practices applied: CTE-based structure, no hard-coded table names, and logic reuse through a macro.
+
+![Alt text](Data/silver.gif)
 
 ---
 
@@ -646,6 +654,8 @@ Item 3 now has **two rows**: the old version was closed at the exact moment the 
   CI/CD: add a short section here describing the pipeline you built in the course
   (tool used, triggers, steps such as `dbt build`, environments, secrets handling).
 -->
+### Snapshot :
+![Alt text](Data/snapshot.png)
 
 ---
 
